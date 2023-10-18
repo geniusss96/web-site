@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.strip::before {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+}
+
+.sss4 {
+    color: black;
+    top: 0%;
+    position: absolute;
+    width: 40px;
+    left: 0%;
+    cursor: pointer;
+    height: 40px;
+    cursor: pointer;
+}
+
+.sss4:hover {
+    background-color: silver;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.tom-menu {
+    position: absolute;
+    top: 0%;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    left: 100px;
+    cursor: pointer;
+}
+
+.icon-chevron-left {
+    position: absolute;
+    top: 10px;
+    width: 20px;
+    color: rgb(5, 5, 5);
+    left: 70px;
+    cursor: pointer;
+}
+
+.icon-chevron-left:hover {
+    background-color: silver;
+    transition: background-color 0.3s ease-in-out;
+    height: 20px;
+}
+
+.icon-chevron-right {
+    position: absolute;
+    top: 10px;
+    width: 20px;
+    color: rgb(5, 5, 5);
+    left: 210px;
+    cursor: pointer;
+}
+
+.icon-chevron-right:hover {
+    background-color: silver;
+    transition: background-color 0.3s ease-in-out;
+    height: 20px;
+}
+
+.is {
+    position: relative;
+    left: 500px;
+    top: 10px;
+}
+
+.is1 {
+    position: relative;
+    left: 550px;
+    top: 50px;
+}

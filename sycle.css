@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(152,132,250);
+}
+.top{
+    background-color: rgb(102, 86, 250);
+    width: 100%;
+    position: absolute;
+    inset: 0;
+    height: 70px;
+    top: 0%;
+}
+.sss{
+    width: 100%;
+    height: 20px;
+}
+.sss2{
+    font-size: 70px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0%;
+    left: 2%;
+} 
+.sss4{
+    color: black;
+    top: 15px;
+    position: absolute;
+    width: 40px;
+    left: 1850px;
+    cursor: pointer;
+}
+.sss4:hover{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in-out;
+}
+.search-from{
+    left: 380px;
+    top: 10px;
+    position: absolute;
+    border: 1px solid rgb(55, 209, 163);
+    display: inline-flex;
+    padding: 0 20px;
+    justify-content: space-between; 
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+.search-from__txt{
+    left: 50%;
+    border: none;
+    width: 200px;
+    outline: none;
+    font-size: 20px;
+    padding-right: 10px;
+    background-color: transparent;
+}
+.search-from__btn{
+    left: 50%;
+    border: none;
+    background-color: transparent;
+}
+.search-from__image{
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    cursor: pointer;
+}
+.f{
+    color: black;
+    position: absolute;
+    left: 1800px;
+    top: 65px;
+    width: 100px;
+}
+.f:hover{
+    border-radius: 20px;
+    background-color: rgb(255, 249, 249);
+    transition: background-color 0.3s ease-in-out;
+}
+.settings-icon{
+    top: 15px;
+    width: 40px;
+    left: 1800px;
+    position: absolute;
+    color: black;
+    cursor: pointer;
+}
+.settings-icon:hover{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease-in-out;
+}
+.animetop-menu{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    left: 40%;
+}
+.animetop-menu:hover{
+    border-radius: 10px;
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+.animejanr-menu{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    cursor: pointer;
+}
+.animejanr-menu:hover{
+    border-radius: 10px;
+    background-color: white;
+    width: 80px;
+    background-position: center;
+    transition: background-color 0.3s ease-in-out;
+}
+.fon-site{
+    position: absolute;
+    top: 10%;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    left: 300px;
+}
+.cube {
+    top: 150px;
+    left: 350px;
+    width: 1220px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.face {
+    width: 1220px;
+    height: 500px;
+    background-color: silver;
+    border-radius: 20px ;
+    border: 1px solid #0a0909;
+}
+
+.face.red {
+    background-color: #000000;
+}
+.bleach{
+    position: absolute;
+    left: 380px;
+    top: 200px;
+}
+.bleach-text{
+    position: absolute;
+    font-size: 50px;
+    left: 700px;
+    top: 200px;
+}
+.strip::before {
+    position: absolute;
+    top: 280px;
+    left: 700px;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 650px;
+    height: 1px;
+    background-color: black;
+}
+.bleach-text1{
+    position: absolute;
+    font-size: 10px;
+    left: 700px;
+    top: 280px;
+}
